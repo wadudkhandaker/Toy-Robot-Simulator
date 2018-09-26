@@ -10,6 +10,6 @@ Here are the steps
 Usage: Toy-Robot-Simulator [command]
 
 ### Example
-```Toy-Robot-Simulator PLACE 0,0,NORTH
-     ...
-```
+ ```javascript
+Toy-Robot-Simulator PLACE 0,0,NORTH
+ ```  
