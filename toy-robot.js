@@ -11,7 +11,6 @@ const FACE = {
 };
 
 let flag = false;
-let initialPlaceCommand = false;
 
 const rl = readline.createInterface({
     input: process.stdin,
@@ -178,8 +177,6 @@ const commandExecutioner = (mCommand) => {
             break;
     }
 };
-
-
 
 const recursiveAsyncReadLine = function () {
     rl.question('Enter Command: ', function (answer) {
